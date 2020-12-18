@@ -10,7 +10,7 @@ import './App.css';
 const particlesOptions = {
   fpsLimit: 60,
           interactivity: {
-            detectsOn: "canvas",
+            detectsOn: "parent",
             events: {
               onHover: {
                 enable: true,
@@ -22,7 +22,7 @@ const particlesOptions = {
               bubble: {
                 distance: 400,
                 duration: 2,
-                opacity: 0.8,
+                opacity: 0.6,
                 size: 40,
               },
               push: {
